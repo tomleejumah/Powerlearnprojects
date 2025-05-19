@@ -12,14 +12,18 @@ class Superhero:
         print(f"{self.name} uses {self.power}!")
 
 
+# Subclass demonstrating inheritance and polymorphism
 class FlyingHero(Superhero):
     def attack(self):
         print(f"{self.name} swoops from the sky with {self.power}!")
+
 
 class StrongHero(Superhero):
     def attack(self):
         print(f"{self.name} smashes with super strength of level {self.level}!")
 
+
+# Using the classes
 hero1 = FlyingHero("SkyBolt", "Wind Slash", 5)
 hero2 = StrongHero("Titan", "Super Strength", 8)
 
@@ -39,17 +43,17 @@ class Vehicle:
 
 class Car(Vehicle):
     def move(self):
-        print("Driving 🚗")
+        print("Driving ")
 
 
 class Plane(Vehicle):
     def move(self):
-        print("Flying ✈️")
+        print("Flying ")
 
 
 class Boat(Vehicle):
-    # def move(self):
-    #     print("Sailing 🚤")
+    def move(self):
+        print("Sailing ")
 
 
 # Test polymorphism
