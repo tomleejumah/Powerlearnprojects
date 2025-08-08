@@ -1,0 +1,82 @@
+.register-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    transform: scale(0.70);
+  }
+  
+  .register-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 1rem;
+    width: 80%;
+    max-width: 400px; /* 400px * 0.65 */
+    transform-origin: center;
+    overflow-y: auto;
+  }
+  
+  .register-title {
+    color: blue;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .register-form {
+    background-color: white;
+    border-radius: 8px;
+    padding: 0.975rem; /* 1.5rem * 0.65 */
+  }
+  
+  .input-group {
+    margin-bottom: 1rem;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: black;
+    text-align: left;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 0.325rem; /* 0.5rem * 0.65 */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding-left: 0.5rem;
+  }
+  
+  .signup-button {
+    width: 100%;
+    padding: 0.4875rem; /* 0.75rem * 0.65 */
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem; /* 1rem * 0.65 */
+    margin-top: 1rem;
+  }
+  
+  .login-link {
+    text-align: center;
+    margin-top: 1rem;
+    color: black;
+  }
+  
+  .login-link a {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+    margin-top: 0.5rem;
+  }

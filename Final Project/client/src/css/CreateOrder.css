@@ -1,0 +1,92 @@
+.create-order {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.order-form {
+  background-color: #F6F7C4;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.form-fields {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form-group {
+  width: calc(50% - 10px);
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: black;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+
+.submit-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+
+.submit-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.order-summary {
+  background-color: #e9f7ef;
+  border-radius: 8px;
+  padding: 20px;
+}
+.order-summary h3{
+  color: black;
+}
+.order-summary h3{
+  color: black;
+  font-size: xx-large;
+}
+.order-summary p{
+  color: black;
+  font-size: x-large;
+}
+
+.map-container {
+  margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+  .form-group {
+    width: 100%;
+  }
+}
